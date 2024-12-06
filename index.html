@@ -1,13 +1,19 @@
+<!DOCTYPE html>
 <html>
+
 <head>
-    <title>Assign Node Value</title>
+    <title>Show Message</title>
 </head>
+
 <body>
     <p id="source">Hello, world!</p>
     <p id="target"></p>
-
+    <button onclick="myFunction()">Show Message</button>
     <script>
-        document.getElementById("target").innerHTML = document.getElementById("source").innerHTML;
+        function myFunction(){
+            document.getElementById('target').innerHTML = 'Hello, world!'
+        }
     </script>
 </body>
+
 </html>
